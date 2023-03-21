@@ -1,9 +1,11 @@
-# POST /api/vk/v1/teams
-Host: `create.fortnite.com`<br>
+## Teams - Create Team: Create a UEFN Work Team
+
+URL: https://create.fortnite.com/team \
+Method: POST \
 Authentication required: `Yes (EG1 cookie and CSRF)`
 
-Body:
-```
+Request Body:
+```jsonc
 {
   "name": "Team Name",
   "description": "Team Description",
@@ -11,13 +13,11 @@ Body:
 }
 ```
 
-Success returns:<br>
-```
-Unknown.
-```
+The result is currently unknown
 
-Failure returns:<br>
-```
+## On failure
+
+```json
 {
   "errorCode": "errors.com.epicgames.creator-portal-backend.XXXXXXXXXXXXX",
   "errorMessage": "XXXXXXXXXXXXXXXXX"
