@@ -1,24 +1,29 @@
-## Teams - Create Team: Create a UEFN Work Team
+# Teams - Create Team
+### Create a UEFN Work Team
 
-URL: https://create.fortnite.com/team \
-Method: POST \
-Authentication required: `Yes (EG1 cookie and CSRF)`
+URL: `https://create.fortnite.com/api/vk/v1/teams` \
+Method: `POST` \
+Authentication: `YES (EG1 cookie and CSRF)`
 
-Request Body:
-```jsonc
+#### Request Body:
+```json
 {
   "name": "Team Name",
   "description": "Team Description",
-  "emailDomains": [] // unknown
+  "emailDomains": []
 }
 ```
 
-The result is currently unknown
+### Responses
+#### Success:
+```
+Currently unknown.
+```
 
-## On failure
-
+#### Error:
 ```json
 {
   "errorCode": "errors.com.epicgames.creator-portal-backend.XXXXXXXXXXXXX",
   "errorMessage": "XXXXXXXXXXXXXXXXX"
 }
+```
