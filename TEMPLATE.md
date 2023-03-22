@@ -4,6 +4,7 @@
 URL: `https://create.fortnite.com/XXXXXXXXXXXXXXXX` \
 Method: `GET/POST/DELETE/UPDATE/OPTIONS/etc.` \
 Authentication: `YES (specify what type in brackets)/NO` \
+
 Permissions required:
   - Some:Permission CREATE
   - Some:Permission UPDATE
