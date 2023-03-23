@@ -1,5 +1,5 @@
-# Teams - Create Team
-### Create a UEFN Work Team
+# Teams - GET Teams
+### GET all UEFN Work Teams
 
 URL: `https://create.fortnite.com/api/vk/v1/teams` \
 Method: `GET` \
