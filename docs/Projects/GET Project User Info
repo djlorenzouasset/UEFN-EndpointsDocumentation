@@ -11,9 +11,9 @@ Authentication: `YES (EG1 cookie and CSRF)`
 #### Success:
 ```json
 {
-   "projectId":"6652230c-4f02-f300-e2f1-6d8e4a2f8c3d",
-   "accountId":"eee7f955847e486287cf67f11613fe1d",
-   "title":"MyProjectF",
+   "projectId":"projectid",
+   "accountId":"accountid",
+   "title":"projecttitle",
    "hasStar":true,
    "access":{
       "read":true,
