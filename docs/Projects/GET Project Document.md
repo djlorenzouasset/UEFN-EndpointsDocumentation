@@ -1,4 +1,4 @@
-# Projects - GET Project User Info
+# Projects - GET Project Document
 ### Get UEFN Project Data/Document
 
 URL: `https://content-service.bfda.live.use1a.on.epicgames.com/api/content/v2/project/[projectid]` \
