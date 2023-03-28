@@ -1,10 +1,10 @@
 # Projects - GET Project User Info
 ### Get all UEFN Work projects
 
-URL: `https://create.fortnite.com/api/vk/v1/projects/[projectid]/user` \
+URL: `https://content-service.bfda.live.use1a.on.epicgames.com/api/content/v2/project/[projectid]#` \
 ProjectID Example: `6a7b8e1f-3d09-bd2c-f5a3-9e4d2c0e7a6f` \
 Method: `GET` \
-Authentication: `YES (EG1 cookie and CSRF)`
+Authentication: `YES (Bearer Token)`
 
 
 ### Responses
