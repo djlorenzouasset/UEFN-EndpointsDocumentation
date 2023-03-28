@@ -1,7 +1,7 @@
 # Namespace (Teams, Projects, etc.) - Short Name
 ### Short, general description
 
-URL: `https://create.fortnite.com/*` \
+URL: `https://create.fortnite.com/*` or `https://content-service.bfda.live.use1a.on.epicgames.com/*` \
 Method: `GET/POST/DELETE/UPDATE/OPTIONS/etc.` \
 Authentication: `YES (specify what type in brackets)/NO`
 
