@@ -1,4 +1,4 @@
-# Projects - EDIT Project
+# Projects - Edit Project's Metadata
 ### Edit a UEFN Work project
 
 URL: `https://content-service.bfda.live.use1a.on.epicgames.com/api/content/v2/project/[projectid]/meta` \
