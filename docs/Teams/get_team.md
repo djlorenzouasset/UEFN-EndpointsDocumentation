@@ -1,10 +1,8 @@
 # Teams - GET Team Info
-### GET UEFN Work Team Info
 
 URL: `https://create.fortnite.com/api/vk/v1/teams/:team_id` \
 Method: `GET` \
 Authentication: `YES (EG1 cookie and CSRF)`
-
 
 ### Responses
 #### Success:

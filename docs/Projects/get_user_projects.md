@@ -1,10 +1,8 @@
-# Projects - GET Project
-### Get all UEFN Work projects
+# Projects - GET User's Project
 
 URL: `https://create.fortnite.com/api/vk/v1/projects` \
 Method: `GET` \
 Authentication: `YES (EG1 cookie and CSRF)`
-
 
 ### Responses
 #### Success:

@@ -1,5 +1,4 @@
 # Teams - Create Team
-### Create a UEFN Work Team
 
 URL: `https://create.fortnite.com/api/vk/v1/teams` \
 Method: `POST` \

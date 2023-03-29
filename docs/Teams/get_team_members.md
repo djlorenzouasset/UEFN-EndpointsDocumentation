@@ -1,10 +1,8 @@
 # Teams - GET Team Members
-### GET all UEFN Work Team Members
 
 URL: `https://create.fortnite.com/api/vk/v1/teams/:team_id/members` \
 Method: `GET` \
 Authentication: `YES (EG1 cookie and CSRF)`
-
 
 ### Responses
 #### Success:

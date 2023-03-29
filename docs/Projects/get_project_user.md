@@ -1,5 +1,4 @@
-# Projects - GET Project User Info
-### Get all UEFN Work projects
+# Projects - GET Project User
 
 URL: `https://create.fortnite.com/api/vk/v1/projects/[projectid]/user` \
 ProjectID Example: `6a7b8e1f-3d09-bd2c-f5a3-9e4d2c0e7a6f` \
