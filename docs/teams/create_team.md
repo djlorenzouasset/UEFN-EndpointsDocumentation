@@ -18,8 +18,43 @@ Permissions required:
 
 ### Responses
 #### Success:
-```
-Currently unknown.
+```json
+{
+    "teamId": "",
+    "created": "",
+    "updated": "",
+    "name": "",
+    "description": "",
+    "owner": {
+        "type": "account",
+        "id": "",
+        "name": ""
+    },
+    "memberCount": 1,
+    "playtesterCount": 0,
+    "publishingBrand": "",
+    "playtestGroups": [],
+    "limits": {
+        "memberLimit": 30,
+        "playtesterLimit": 50,
+        "playtestGroupLimit": 5,
+        "joinCodeLimit": 50
+    },
+    "membership": {
+        "membershipId": "",
+        "accountId": "",
+        "displayName": "",
+        "updated": "",
+        "status": "accepted",
+        "vkAccess": {
+            "edit": true,
+            "publish": true,
+            "operate": true,
+            "admin": true
+        },
+        "cpRole": "owner"
+    }
+}
 ```
 
 #### Error:
