@@ -19,4 +19,3 @@ If you want to contribute to this Repo, please open an issue and follow the [Con
 - [MC](https://github.com/McMistrzYT)
 - [Rift](https://github.com/RiftSTW)
 - [MisterLoki](https://github.com/MisterLoki)
-- [Tectors](https://github.com/Tectors)
