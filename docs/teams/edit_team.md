@@ -11,7 +11,7 @@ Permissions required:
 ```json
 {
     "name": "Team Name",
-    "description": "Team Description "
+    "description": "Team Description"
 }
 ```
 
