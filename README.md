@@ -16,6 +16,6 @@ If you want to contribute to this Repo, please open an issue and follow the [Con
 - [ᴅᴊʟᴏʀ3xᴢᴏ](https://github.com/djlorenzouasset)
 - [Tector](https://github.com/Tectors)
 - [Bren](https://github.com/bren2409)
-- [MC](https://github.com/McMistrzYT)
+- [McMistrzYT](https://github.com/McMistrzYT)
 - [Rift](https://github.com/RiftSTW)
 - [MisterLoki](https://github.com/MisterLoki)
