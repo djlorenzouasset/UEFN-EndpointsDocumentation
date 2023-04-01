@@ -1,8 +1,7 @@
 # Creator Portal - Get List of News
 > Gives you a list of the latest Creative news visible on the Creator Portal.
-### Note: This URL changes every day, because it is using the Next API.
 
-URL: `https://create.fortnite.com/_next/data/NopkUZQ4J7tvAlR0x11c7/en-US/news.json` \
+URL: `https://create.fortnite.com/api/cms/v1/articles` \
 Method: `GET` \
 Authentication: `NO` \
 Language Support: `NO`
@@ -14,21 +13,68 @@ Permissions required:
 #### Success:
 ```json
 {
-  "pageProps": {
-    "teams": [],
-    "locale": "en-US",
-    "blogs": [
+    "blogList": [
       {
-        "title": "Title of the News Article",
-        "_id": "ID of the news article",
-        "date": "ISO Date of addition",
-        "trendingImage": "https://cdn2.unrealengine.com/XXXXXXXXXXXXXXXXXX.jpg",
-        "image": "https://cdn2.unrealengine.com/XXXXXXXXXXXXXXXXXX.jpg",
-        "slug": "some-news-article"
-      },
+        "trending": false,
+        "noTopImage": false,
+        "redirect": {
+          "code": "",
+          "_type": ""
+        },
+        "image": "",
+        "contentTypeSticky": false,
+        "author": "",
+        "enableLightbox": false,
+        "_type": "",
+        "alt": "",
+        "shareImage": "",
+        "hasSocialWidget": false,
+        "title": "",
+        "shareImageAlt": "",
+        "content": "",
+        "mobileThumbnailImage": "",
+        "trendingImageAlt": "",
+        "trendingImage": "",
+        "mobileThumbnailImageAlt": "",
+        "highlightImage": "",
+        "sticky": false,
+        "socialWidget": {
+          "cta": {
+            "_type": "",
+            "theme": {
+              "_type": ""
+            }
+          },
+          "_type": "",
+          "dateColor": ""
+        },
+        "featured": false,
+        "date": "",
+        "link": "",
+        "_id": "",
+        "pageMapping": "",
+        "slug": "",
+        "urlPattern": "",
+        "locale": "",
+        "noIndex": false,
+        "_script": "",
+        "category": [],
+        "tags": [],
+        "_metaTags": "",
+        "catLocaleMap": {},
+        "prevSlug": ""
+      }
     ],
-    "blogsTotal": 1
-  },
-  "canonicalUrl": "https://create.fortnite.com/news?team=personal"
+    "blogTotal": 19,
+    "postCount": 13,
+    "incrementCount": 8,
+    "articlesToLoad": 13,
+    "categoryTotals": {
+      "all": 19
+    },
+    "category": null,
+    "catLocaleMap": {},
+    "ctaBlockData": {},
+    "newsletter": {}
 }
 ```
