@@ -1,8 +1,8 @@
 # Creator Portal - Get List of News
 > Gives you a list of the latest Creative news visible on the Creator Portal.
-### Note: This URL may be broken in the future, because it is using the Next API.
+### Note: This URL changes every day, because it is using the Next API.
 
-URL: `https://create.fortnite.com/_next/data/e3NEP2eaheBBeMd6J_7zH/en-US/news.json?team=personal` \
+URL: `https://create.fortnite.com/_next/data/NopkUZQ4J7tvAlR0x11c7/en-US/news.json` \
 Method: `GET` \
 Authentication: `NO` \
 Language Support: `NO`
