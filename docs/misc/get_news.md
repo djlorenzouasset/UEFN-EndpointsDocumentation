@@ -4,10 +4,19 @@
 URL: `https://create.fortnite.com/api/cms/v1/articles` \
 Method: `GET` \
 Authentication: `NO` \
-Language Support: `NO`
+Language Support: `YES`
 
 Permissions required:
  - None
+
+Parameters:
+```jsonc
+{
+    "slug": "", // optional parameter, can be passed for get a single post like "fortnite-creative-v24-30-update".
+    "locale": "", // optional parameter, can be passed for set the language of the blogs data.
+    "rootPageSlug": "blog-creator-portal"
+}
+```
 
 ### Responses
 #### Success:
