@@ -37,8 +37,8 @@ Authentication: `YES (Bearer Token)`
 {
     "host": "content-service.bfda.live.use1a.on.epicgames.com",
     "method": "GET",
-    "path": "/api/content/v2/project/3b118c78-117b-4eda-b500-f7553485d474/meta",
-    "errorCode": "errors.com.epicgames.content-service.auth_required",
-    "errorMessage": "Bearer auth required."
+    "path": "/api/content/v2/project/{projectId}/meta",
+    "errorCode": "errors.com.epicgames.content-service.XXXXXXXXXXXXXXXXXXXXXX",
+    "errorMessage": "XXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
 ```
